@@ -1,0 +1,48 @@
+.cart {
+  background: rgba(255, 153, 0, 0.3);
+  border-radius: 8px;
+  padding: 25px;
+  position: sticky;
+  top: 0;
+}
+
+.cart p {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+  color: #2a414f;
+  margin-top: 25px;
+}
+
+.cart h6 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #0e161a;
+  margin-top: 5px;
+}
+
+.btn-one {
+  background: #ff3030;
+  color: #ffffff;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btn-two {
+  background: #ff9900;
+  color: #ffffff;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+  width: 100%;
+  margin-top: 18px;
+}
