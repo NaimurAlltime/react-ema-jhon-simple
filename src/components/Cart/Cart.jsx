@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./Cart.css";
 
-const Cart = ({ cart, handleClearCart }) => {
+const Cart = ({ cart, handleClearCart, children }) => {
   // const { cart } = props;
 
   let totalPrice = 0;
@@ -38,6 +38,7 @@ const Cart = ({ cart, handleClearCart }) => {
         Proceed Checkout
         {/* <FontAwesomeIcon icon={faCreditCardAlt} /> */}
       </button>
+      {children}
     </div>
   );
 };
