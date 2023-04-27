@@ -1,0 +1,107 @@
+.form-container {
+  margin: 50px auto;
+  width: 500px;
+  height: 600px;
+  /* left: 484px;
+  top: 208px; */
+  background: #ffffff;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+  box-shadow: -25px 0px 20px -20px rgba(0, 0, 0, 0.45),
+    -16px 13px 4px 0px rgba(255, 224, 179, 1);
+}
+
+.form-title {
+  text-align: center;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  letter-spacing: 0.0025em;
+  color: #2a414f;
+}
+
+.form-control {
+  margin: 0 43px;
+}
+
+.form-control label {
+  display: block;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.0015em;
+  color: #2a414f;
+  padding-bottom: 9px;
+}
+
+.form-control input {
+  width: 100%;
+  /* padding: 15px 0 15px 8px; */
+  width: 415px;
+  height: 55px;
+  padding-left: 8px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  border: 1px solid #95a0a7;
+  border-radius: 5px;
+}
+
+.login-btn {
+  background: rgba(255, 153, 0, 0.3);
+  border-radius: 5px;
+  width: 425px;
+  height: 55px;
+  font-size: 1.5rem;
+  margin-top: 32px;
+}
+
+.new-account {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.0025em;
+}
+
+.new-account a {
+  margin-left: 4px;
+  color: #ff9900;
+}
+
+.hr {
+  margin: 30px 73px;
+}
+
+.google-signIn-btn {
+  border-radius: 5px;
+  width: 425px;
+  height: 55px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #2a414f;
+  border: 1px solid #95a0a7;
+}
+
+.signIn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 880px;
+}
+
+.password-toggle-icon2 {
+  position: absolute;
+  top: 390px;
+  right: 585px;
+  z-index: 1000;
+  cursor: pointer;
+}

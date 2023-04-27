@@ -1,5 +1,7 @@
+import { faCreditCardAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import { deleteShoppingCart, removeFromDb } from "../../utilities/fakedb";
 import Cart from "../Cart/Cart";
 import ReviewItem from "../ReviewItem/ReviewItem";
@@ -33,7 +35,14 @@ const Orders = () => {
         ))}
       </div>
       <div className="order-container">
-        <Cart cart={cart} handleClearCart={handleClearCart}></Cart>
+        <Cart cart={cart} handleClearCart={handleClearCart}>
+          <Link style={{ textDecoration: "none" }} to="/checkout">
+            <button className="btn-two">
+              Proceed Checkout
+              <FontAwesomeIcon icon={faCreditCardAlt} />
+            </button>
+          </Link>
+        </Cart>
       </div>
     </div>
   );

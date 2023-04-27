@@ -34,10 +34,6 @@ const Cart = ({ cart, handleClearCart, children }) => {
         Clear Cart
         <FontAwesomeIcon icon={faTrashCan} />
       </button>
-      <button className="btn-two">
-        Proceed Checkout
-        {/* <FontAwesomeIcon icon={faCreditCardAlt} /> */}
-      </button>
       {children}
     </div>
   );
