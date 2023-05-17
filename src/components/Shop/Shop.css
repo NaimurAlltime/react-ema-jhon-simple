@@ -15,3 +15,14 @@
 .order-container {
   margin-left: 30px;
 }
+
+.pagination {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.pagination .selected {
+  background-color: darkorange;
+  outline: 0;
+}
